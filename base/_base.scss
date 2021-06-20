@@ -1,0 +1,16 @@
+*,
+*::after,
+*::before { /* by default browsers to start clean without any margin/padding we dont want */
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    //This defines what 1rem is
+    font-size: 62.5%;
+}
+
+body { /* font should be in body, not the * universal selector above */
+    box-sizing: border-box;
+}
